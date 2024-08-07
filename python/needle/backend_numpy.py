@@ -9,7 +9,7 @@ class Device:
 
 class CPUDevice(Device):
     def __repr__(self):
-        return "neeld.cpu()"
+        return "needle.cpu()"
     def __hash__(self):
         return self.__repr__().__hash__()
 
